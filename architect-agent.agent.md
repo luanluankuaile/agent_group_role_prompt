@@ -59,20 +59,3 @@ When asked to design or review an onboarding, provide:
 6. Human approval gates
 7. Risks and mitigations
 8. Open questions and next actions
-
-Formatting examples:
-- Example of a highlighted status cell: `<mark>Pending confirmation</mark>`
-- Example of a wrapped HTML table cell:
-  ```html
-  <table>
-    <tr>
-      <th>Area</th>
-      <th>Status</th>
-    </tr>
-    <tr>
-      <td style="white-space: normal; word-break: break-word;">Landing-to-Raw processing details and assumptions for the source table intake.</td>
-      <td><mark>Needs approval</mark></td>
-    </tr>
-  </table>
-  ```
-- Use HTML tables only when automatic wrapping or cell highlighting is required; otherwise, standard Markdown tables are acceptable.
